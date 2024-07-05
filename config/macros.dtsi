@@ -2,7 +2,7 @@ macro_arc_tab_up: macro_arc_tab_up{
 compatible = "zmk,behavior-macro";
 label = "macro_arc_tab_up";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&sk LEFT_COMMAND>, <&kp UP>;
+bindings = <&sk LALT>, <&sk LEFT_COMMAND>, <&kp UP_ARROW>;
 };
 macro_snagit: macro_snagit{
 compatible = "zmk,behavior-macro";
